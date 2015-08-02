@@ -37,10 +37,10 @@ Also useful when we need to run a piece of code multiple times. E.g. If you make
 **Hoisting** is the process of using a variable before it's defined in a scope. Since variable declarations are processed before code is executed, declaring a variable anywhere in the code is the same as declaring it at the top. E.g. If I try to use a variable in a function before I declare it (but then later on declare and initialize it in the function scope), JavaScript will treat the declaration as if the variable had been declared *before* I used it. A variable is "hoisted" to the top of the variable scope. This variable will be hoisted to the top *without* the value I assigned to it.
 
 ###Practicle Example
-```js
-var myvar = 'my value';
 
 ####Good Code
+```js
+var myvar = 'my value';
 // create a IIFE
 (function() {
 	alert(myvar);
