@@ -138,7 +138,7 @@ Outer element (execute a function second) <- Inner Element (execute a function f
 ##Event Capturing
 
 Tricke Down:
-Outer element (execute a function first) -> Inner Element (execute a function down).
+Outer element (execute a function first) -> Inner Element (execute a function second).
 
 ###Learning Resources
 * http://stackoverflow.com/questions/4616694/what-is-event-bubbling-and-capturing
